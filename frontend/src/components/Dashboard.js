@@ -150,7 +150,7 @@ const styles = {
     alignItems: 'flex-start'
   },
   card: {
-    backgroundColor: '#ffff',
+    backgroundColor: '#fff',
     padding: '2rem',
     borderRadius: '12px',
     boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
