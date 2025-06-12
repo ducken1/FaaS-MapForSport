@@ -1,0 +1,79 @@
+.app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.auth-box, .facility-add, .facility-item {
+  background: white;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline-offset: 2px;
+  transition: border-color 0.2s ease;
+}
+
+.input-field:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 3px #3b82f6;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  transition: background-color 0.2s ease;
+  user-select: none;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.btn-success {
+  background-color: #22c55e;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #16a34a;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+}
+
+.btn-reserve {
+  background-color: #10b981;
+  color: white;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.btn-reserve:hover {
+  background-color: #059669;
+}
+
+.facilities-list {
+  list-style-type: none;
+  padding-left: 0;
+}
